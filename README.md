@@ -34,6 +34,7 @@ El sistema permite a los usuarios realizar las siguientes acciones:
 - **Tkinter**: Biblioteca para crear la interfaz gráfica de usuario.
 - **JSON**: Formato de datos utilizado para el almacenamiento de usuarios.
 - **Pip**: Para la gestión de dependencias (tkinter).
+## Arquitectura
 data_manager/ <br>
 ├── data/ <br>
 │   └── users.json  <br>
