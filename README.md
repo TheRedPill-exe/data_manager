@@ -36,15 +36,15 @@ El sistema permite a los usuarios realizar las siguientes acciones:
 - **Pip**: Para la gestión de dependencias (tkinter).
 data_manager/ <br>
 ├── data/ <br>
-│   └── users.json # Almacena la información de los usuarios en formato JSON <br>
+│   └── users.json  <br>
 ├── src/ <br>
-│   ├── __init__.py # Inicializa el paquete <br>
-│   ├── file_handler.py # Maneja la lectura y escritura de archivos <br>
-│   ├── menu.py # Contiene la interfaz de usuario y la lógica del programa <br>
-│   ├── user_manager.py # Contiene funciones para agregar, actualizar, eliminar y mostrar usuarios <br>
-│   └── validation.py # Maneja la validación de datos de usuarios <br>
+│   ├── __init__.py <br>
+│   ├── file_handler.py  <br>
+│   ├── menu.py <br>
+│   ├── user_manager.py  <br>
+│   └── validation.py  <br>
 └── tests/ <br>
-    └── test_user_manager.py # Pruebas unitarias para la lógica del manejo de usuarios
+    └── test_user_manager.py
 
 ## Instrucciones de Instalación
 
