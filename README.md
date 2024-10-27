@@ -50,5 +50,5 @@ data_manager/ <br>
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone <https://github.com/TheRedPill-exe/data_manager>
+   git clone https://github.com/TheRedPill-exe/data_manager
 
