@@ -10,8 +10,7 @@ Este proyecto es un sistema de gestión de usuarios que permite agregar, actuali
 - [Estructura de Archivos](#estructura-de-archivos)
 - [Instrucciones de Instalación](#instrucciones-de-instalación)
 - [Uso](#uso)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+
 
 ## Descripción del Proyecto
 
@@ -34,6 +33,22 @@ El sistema permite a los usuarios realizar las siguientes acciones:
 - **Python**: Lenguaje de programación utilizado para el desarrollo.
 - **Tkinter**: Biblioteca para crear la interfaz gráfica de usuario.
 - **JSON**: Formato de datos utilizado para el almacenamiento de usuarios.
-- **Pip**: Para la gestión de dependencias (si es necesario).
+- **Pip**: Para la gestión de dependencias (tkinter).
+data_manager/ <br>
+├── data/ <br>
+│   └── users.json # Almacena la información de los usuarios en formato JSON <br>
+├── src/ <br>
+│   ├── __init__.py # Inicializa el paquete <br>
+│   ├── file_handler.py # Maneja la lectura y escritura de archivos <br>
+│   ├── menu.py # Contiene la interfaz de usuario y la lógica del programa <br>
+│   ├── user_manager.py # Contiene funciones para agregar, actualizar, eliminar y mostrar usuarios <br>
+│   └── validation.py # Maneja la validación de datos de usuarios <br>
+└── tests/ <br>
+    └── test_user_manager.py # Pruebas unitarias para la lógica del manejo de usuarios
 
+## Instrucciones de Instalación
+
+1. **Clonar el repositorio**:
+   ```bash
+   git clone <https://github.com/TheRedPill-exe/data_manager>
 
