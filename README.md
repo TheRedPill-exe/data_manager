@@ -1,40 +1,41 @@
 # User Management System
 
-Este proyecto es un sistema de gestión de usuarios que permite agregar, actualizar, eliminar y mostrar información de usuarios a través de una interfaz gráfica de usuario (GUI) desarrollada en Python utilizando la biblioteca Tkinter. Los datos de los usuarios se almacenan en un archivo JSON, lo que permite una fácil manipulación y persistencia de la información.
-## Despliegue: https://drive.google.com/file/d/1z8suVDkeVA2p8HFNAw-B05X407xn7v5a/view?usp=sharing
-## Tabla de Contenidos
+This project is a user management system that enables adding, updating, deleting, and displaying user information through a graphical user interface (GUI) developed in Python using the Tkinter library. User data is stored in a JSON file, which allows easy manipulation and persistence of information.
+## Deployment: https://drive.google.com/file/d/1z8suVDkeVA2p8HFNAw-B05X407xn7v5a/view?usp=sharing
+## Table of Contents
 
-- [Descripción del Proyecto](#descripción-del-proyecto)
-- [Características](#características)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Estructura de Archivos](#estructura-de-archivos)
-- [Instrucciones de Instalación](#instrucciones-de-instalación)
-- [Uso](#uso)
+- [Project Description](#project-description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [File Structure](#file-structure)
+- [Installation Instructions](#installation-instructions)
+- [Usage](#usage)
 
 
-## Descripción del Proyecto
+## Project Description
 
-El sistema permite a los usuarios realizar las siguientes acciones:
+The system allows users to perform the following actions:
 
-- **Agregar un nuevo usuario**: Introducir datos como ID, nombre, correo electrónico y fecha de nacimiento.
-- **Actualizar información de un usuario**: Modificar campos específicos de los usuarios existentes.
-- **Eliminar un usuario**: Eliminar un usuario del sistema mediante su ID.
-- **Mostrar información de los usuarios**: Buscar y mostrar detalles de los usuarios.
+- **Add a new user**: Input data such as ID, name, email, and date of birth.
+- **Update user information**: Modify specific fields of existing users.
+- **Delete a user**: Remove a user from the system by their ID.
+- **Display user information**: Search and display user details.
 
-## Características
+## Features
 
-- Interfaz gráfica intuitiva y fácil de usar.
-- Validación de datos para asegurar que la información ingresada sea correcta.
-- Almacenamiento persistente de datos utilizando JSON.
-- Soporte para múltiples operaciones de gestión de usuarios.
+- Intuitive, user-friendly graphical interface.
+- Data validation to ensure correct input.
+- Persistent data storage using JSON.
+- Support for multiple user management operations.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- **Python**: Lenguaje de programación utilizado para el desarrollo.
-- **Tkinter**: Biblioteca para crear la interfaz gráfica de usuario.
-- **JSON**: Formato de datos utilizado para el almacenamiento de usuarios.
-- **Pip**: Para la gestión de dependencias (tkinter).
-## Arquitectura
+- **Python**: Programming language used for development.
+- **Tkinter**: Library used to create the graphical user interface.
+- **JSON**: Data format used for storing user information.
+- **Pip**: Dependency management (tkinter).
+
+## Architecture
 data_manager/ <br>
 ├── data/ <br>
 │   └── users.json  <br>
@@ -47,9 +48,8 @@ data_manager/ <br>
 └── tests/ <br>
     └── test_user_manager.py
 
-## Instrucciones de Instalación
+## Installation Instructions
 
-1. **Clonar el repositorio**:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/TheRedPill-exe/data_manager
-
